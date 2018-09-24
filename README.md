@@ -59,3 +59,10 @@ Sample Response:
   },
 ]
 ```
+
+- Pay to Agent: [POST] http://demo3825547.mockable.io/ebills/pay/
+The api is a mock and will always return success. Please do client side validation.
+
+
+## Note
+Each agent payment form should be different from the other one, please suggest a suitable form for each one.
