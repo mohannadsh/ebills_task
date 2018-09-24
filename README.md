@@ -25,3 +25,37 @@ You have the freedom to design the pay-to-agent page but to follow the same them
 
 
 ## APIs
+
+- Get Balance API: http://demo3825547.mockable.io/ebills/my-balance
+
+Sample Response:
+```
+{
+balance: "1450"
+}
+```
+
+- Get Agents: [GET] http://demo3825547.mockable.io/ebills/get_agents
+Sample Response:
+```
+[
+  {
+    id: 1,
+    name: "Hadara"
+  },
+  
+  {
+    id: 2,
+    name: "Mada"
+  },
+  
+  {
+    id: 3,
+    name: "Jawwal
+  },
+  {
+    id: 4,
+    name: "Paltel"
+  },
+]
+```
