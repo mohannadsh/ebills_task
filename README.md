@@ -1,5 +1,5 @@
 # E-Bills System Task
-#zaidds
+
 Please follow the following instruction to implement the E-Bills system
 
 1. Please use Angular 5 as SPA framework, SASS as stylesheet preprocessor.
