@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+$navColor:#643baaf5;
+$fontSize:20px;
+.bg-purple{
+    background:$navColor;
+    font-size: $fontSize;
+}
+.text-purple{
+    color: $navColor;
+}

@@ -1,0 +1,22 @@
+<!-- balance nav -->
+<div class="row pl-3 text-white bg-purple pb-3 ">
+
+    <span *ngFor="let b of balance">
+        My Balance {{ b.balance | currency}}
+
+    </span>
+
+</div>
+<h2 class="text-dark">
+    {{error.statusText}}</h2>
+<!-- agents layout -->
+<div class="row">
+    <div class="card  m-2" *ngFor="let a of agents">
+        <img class="card-img-top mt-3" [src]="a.src" alt="Card image cap">
+        <div class="card-body">
+
+            <p class="card-text">Pay For <a class="text-primary" (click)="onClick(a.id)">{{a.name}}</a></p>
+            <a class="btn btn-secondary btn-block text-white" (click)="onClick(a.id)">Pay</a>
+        </div>
+    </div>
+</div>
